@@ -1,0 +1,27 @@
+.grid{display:grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        padding-top: 50px;}
+
+.insta{text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: darkseagreen;
+        font-weight:bold ;
+        font-size: larger;}
+.twitter{text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkseagreen;
+    font-weight:bold ;
+    font-size: larger;}
+.facebook{text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkseagreen;
+    font-weight:bold ;
+    font-size: larger;}
+.social{text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkseagreen;
+    font-weight:bold ;
+    font-size: 100px;}
+    .logo {padding-right: 0;
+        padding-top: 0;}
+

@@ -1,0 +1,49 @@
+ul {border: solid 4px skyblue;
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;}           
+li a {width:80px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: darkseagreen;
+    color: white;
+    text-decoration: none;}
+li a:hover {background-color: skyblue;}
+li a.current {background-color: darkseagreen;}
+li {float: left;}
+h1 {font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    color: skyblue;
+    border-radius: 10px;}
+p {font-size: 20px;
+    color: white;
+    text-align: center}
+.grid {display: grid;
+        grid-template-columns: 1fr 1fr 1fr;}
+.family {border-style: dotted;
+            border-color: skyblue;
+            text-align: top;
+            justify-content: center;}
+.photos {border-style: dotted;
+        border-color: skyblue;
+        text-align: top;}
+.hobbies {border-style: dotted;
+        border-color: skyblue;
+        text-align: center;}
+.hfamily {font-size: 45px;
+            color:skyblue;
+            text-align: center;}
+.hhobbies {font-size: 45px;
+            color:skyblue;
+            text-align: center;}
+.top{grid-template-columns:max-content;}
+.mid{grid-template-columns: 1fr 1fr;}
+.bottom{grid-template-columns: 1fr 1fr 1fr;}
+.logo {padding-right: 0;
+    padding-top: 0;}
+
